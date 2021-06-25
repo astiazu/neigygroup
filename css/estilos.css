@@ -50,8 +50,8 @@ nav{
 }
 
 nav a {
-    color:#fff;
-    font-weight: 300;
+    color:#fff; 
+    font-weight: 500;
     text-decoration: none;
     margin-right: 10px;
 }
@@ -77,13 +77,13 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 50px;
-    color:#fff;
+    color:rgb(1, 30, 126);
 }
 
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
-    color:#fff;
+    color:rgb(5, 163, 255);
 }
 
 .wave{
@@ -262,7 +262,7 @@ main .sobre-nosotros{
 }
 
 .clientes-contenedor .cards .card{
-    background: #028bfc;
+    background: #011a8a;
     display: flex;
     width: 33%;
     height: 200px;
@@ -288,6 +288,13 @@ main .sobre-nosotros{
 .clientes-contenedor .cards .card > .contenido-texto-card p{
     color: #ccc;
     font-weight: 300;
+    padding-top: 15px;
+    text-align: left;
+}
+
+.clientes-contenedor .cards .card > .contenido-texto-card a{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
     padding-top: 15px;
     text-align: left;
 }
@@ -387,30 +394,36 @@ footer{
     justify-content: space-between;
 }
 
-.colum1{
+.container-body .colum1{
     max-width: 400px;
 }
 
-.colum1 h1{
+.container-body .colum1 h1{
     font-size: 22px;
 }
 
-.colum1 p{
+.container-body .colum1 p{
     font-size: 14px;
     color: #C7C7C7;
     margin-top: 20px;
 }
 
-.colum2{
+.container-body .colum1 a{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.container-body .colum1{
     max-width: 400px;
     
 }
 
-.colum2 h1{
+.container-body .colum2 h1{
     font-size: 22px;
 }
 
-.colum2 ul li a{
+.container-body .colum2 ul li a{
     color: white;
     font-size: 14px;
     font-weight: 300;
@@ -418,7 +431,7 @@ footer{
     margin: 30px;
 }
 
-.row{
+.container-body .row{
     margin-top: 20px;
     display: flex;
 }
